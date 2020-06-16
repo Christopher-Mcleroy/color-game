@@ -1,0 +1,53 @@
+body {
+    background-color: #232323;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+h1 {
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.5;
+    font-size: 3rem;
+}
+.container {
+    margin: 0 auto;
+    max-width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.square {
+    width: 30%;
+    margin: 1.66%;
+    background-color: purple;
+    height: 150px;
+    border-radius: 20px;
+}
+.hide {
+    background-color: #232323;
+}
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: white;
+    color: #3B76AF;
+}
+.container a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: #3B76AF;
+}
+.container .selected{
+    background-color: #3B76AF;
+    color: white;
+}
+#message{
+    display: flex;
+    margin: 0 auto;
+}
